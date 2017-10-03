@@ -8,5 +8,8 @@ test_hash = {name: "Mike", status: "tired", level: 3}
 
 # puts test_hash.empty?
 
-puts test_hash.has_key?(:name)
-puts test_hash.has_key?(:ssssname)
+# puts test_hash.has_key?(:name)
+# puts test_hash.has_key?(:ssssname)
+
+puts test_hash.has_value?("mike")
+puts test_hash.has_value?("mike".capitalize)
